@@ -549,34 +549,32 @@ public class SciCal extends javax.swing.JFrame
     private void modulusActionPerformed(java.awt.event.ActionEvent evt) {                                        
         try 
         {
-        String input = jTextArea1.getText();
-        String[] numbers = input.split(" ");
-        
-        if (numbers.length != 2) 
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
+
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            double num1 = Double.parseDouble(numbers[0]);
+            double num2 = Double.parseDouble(numbers[1]);
+
+            if (num2 == 0) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            } 
+            else 
+            {
+                double result = num1 % num2;
+                jTextArea1.setText(String.valueOf(result));
+            }
+        }   
+        catch (NumberFormatException e) 
         {
             jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-            return;
         }
-        
-        double num1 = Double.parseDouble(numbers[0]);
-        double num2 = Double.parseDouble(numbers[1]);
-
-        if (num2 == 0) 
-        {
-            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-        } 
-        else 
-        {
-            double result = num1 % num2;
-            jTextArea1.setText(String.valueOf(result));
-        }
-    }   
-    catch (NumberFormatException e) 
-    {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-    }
-}
-
     }                                       
 
     private void zeroActionPerformed(java.awt.event.ActionEvent evt) {                                     
