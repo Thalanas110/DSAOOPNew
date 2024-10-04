@@ -248,54 +248,139 @@ public class SciCal extends javax.swing.JFrame
 
         customexponent.setBackground(new java.awt.Color(0, 0, 0));
         customexponent.setText("xʸ");
+        customexponent.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                customexponentActionPerformed(evt);
+            }
+        });
 
         factorials.setBackground(new java.awt.Color(0, 0, 0));
         factorials.setText("! ");
+        factorials.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                factorialsActionPerformed(evt);
+            }
+        });
 
         combination.setBackground(new java.awt.Color(0, 0, 0));
         combination.setText("nCr");
+        combination.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                combinationActionPerformed(evt);
+            }
+        });
 
         permutation.setBackground(new java.awt.Color(0, 0, 0));
         permutation.setText("nPr");
+        permutation.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                permutationActionPerformed(evt);
+            }
+        });
 
         customroot.setBackground(new java.awt.Color(0, 0, 0));
         customroot.setText("√");
+        customroot.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                customrootActionPerformed(evt);
+            }
+        });
 
         tangent.setBackground(new java.awt.Color(0, 0, 0));
         tangent.setText("tan");
+        tangent.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tangentActionPerformed(evt);
+            }
+        });
 
         cosine.setBackground(new java.awt.Color(0, 0, 0));
         cosine.setText("cos");
+        cosine.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cosineActionPerformed(evt);
+            }
+        });
 
         sine.setBackground(new java.awt.Color(0, 0, 0));
         sine.setText("sin");
+        sine.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sineActionPerformed(evt);
+            }
+        });
 
         smallpi.setBackground(new java.awt.Color(0, 0, 0));
         smallpi.setText("π");
+        smallpi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                smallpiActionPerformed(evt);
+            }
+        });
 
         floor.setBackground(new java.awt.Color(0, 0, 0));
         floor.setText("⌊x⌋");
+        floor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                floorActionPerformed(evt);
+            }
+        });
 
         ceiling.setBackground(new java.awt.Color(0, 0, 0));
         ceiling.setText("⌈x⌉");
+        ceiling.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ceilingActionPerformed(evt);
+            }
+        });
 
         derivatives.setBackground(new java.awt.Color(0, 0, 0));
         derivatives.setText("d/dx");
+        derivatives.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                derivativesActionPerformed(evt);
+            }
+        });
 
         integral.setBackground(new java.awt.Color(0, 0, 0));
         integral.setText("∫");
+        integral.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                integralActionPerformed(evt);
+            }
+        });
 
         capitalpi.setBackground(new java.awt.Color(0, 0, 0));
         capitalpi.setText("Π");
+        capitalpi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                capitalpiActionPerformed(evt);
+            }
+        });
 
         summation.setBackground(new java.awt.Color(0, 0, 0));
         summation.setText("∑");
+        summation.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                summationActionPerformed(evt);
+            }
+        });
 
         variablex.setBackground(new java.awt.Color(0, 0, 0));
         variablex.setText("x");
+        variablex.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                variablexActionPerformed(evt);
+            }
+        });
 
         variabley.setBackground(new java.awt.Color(0, 0, 0));
         variabley.setText("y");
+        variabley.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                variableyActionPerformed(evt);
+            }
+        });
 
         onoffallclear.setBackground(new java.awt.Color(255, 153, 51));
         onoffallclear.setForeground(new java.awt.Color(0, 0, 0));
@@ -342,6 +427,11 @@ public class SciCal extends javax.swing.JFrame
         shift.setBackground(new java.awt.Color(0, 204, 0));
         shift.setForeground(new java.awt.Color(0, 0, 0));
         shift.setText("SHIFT");
+        shift.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                shiftActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("OFF");
 
@@ -756,6 +846,78 @@ public class SciCal extends javax.swing.JFrame
     private void custombaselogarithmActionPerformed(java.awt.event.ActionEvent evt) {                                                    
         // TODO add your handling code here:
     }                                                   
+
+    private void permutationActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // TODO add your handling code here:
+    }                                           
+
+    private void combinationActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // TODO add your handling code here:
+    }                                           
+
+    private void shiftActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+    }                                     
+
+    private void variableyActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
+
+    private void variablexActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
+
+    private void summationActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
+
+    private void capitalpiActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
+
+    private void integralActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+    }                                        
+
+    private void derivativesActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        // TODO add your handling code here:
+    }                                           
+
+    private void ceilingActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+    }                                       
+
+    private void floorActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+    }                                     
+
+    private void smallpiActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+    }                                       
+
+    private void sineActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+    }                                    
+
+    private void cosineActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        // TODO add your handling code here:
+    }                                      
+
+    private void tangentActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+    }                                       
+
+    private void customrootActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+
+    private void factorialsActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+
+    private void customexponentActionPerformed(java.awt.event.ActionEvent evt) {                                               
+        // TODO add your handling code here:
+    }                                              
 
     /**
      * @param args the command line arguments
