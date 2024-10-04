@@ -7,7 +7,7 @@
  *
  * @author Adriaan M. Dimate
  * @members
- * Vincent Theodore Battaliones
+ * Vincent Theodore Batallones
  * Aiko Heart Agapay
  * Jay Racion
  * James Lawrence Dela Cruz
@@ -15,6 +15,11 @@
  * @checker manaloto.loudel@gordoncollege.edu.ph
  * @pass luy.ronnie@gordoncollege.edu.ph
  */
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class SciCal extends javax.swing.JFrame 
 {
 
@@ -85,8 +90,6 @@ public class SciCal extends javax.swing.JFrame
         jLabel2 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-
-        jScrollPane1.setViewportView(jTree1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -628,8 +631,8 @@ public class SciCal extends javax.swing.JFrame
         pack();
     }// </editor-fold>                        
 
-    private void equalsActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:hbjbnjbnbnjbnjbjbjb
+    private void equalsActionPerformed(java.awt.event.ActionEvent evt) {                                                                                   
+        // TODO add your handling code here:
     }                                      
 
     private void decimalActionPerformed(java.awt.event.ActionEvent evt) {                                        
@@ -644,7 +647,7 @@ public class SciCal extends javax.swing.JFrame
 
             if (numbers.length != 2) 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("%");
                 return;
             }
 
@@ -653,7 +656,7 @@ public class SciCal extends javax.swing.JFrame
 
             if (num2 == 0) 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("%");
             } 
             else 
             {
@@ -663,12 +666,13 @@ public class SciCal extends javax.swing.JFrame
         }   
         catch (NumberFormatException e) 
         {
-            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            jTextArea1.setText("%");
         }
     }                                       
 
     private void zeroActionPerformed(java.awt.event.ActionEvent evt) {                                     
         // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "0");
     }                                    
 
     private void plusminusActionPerformed(java.awt.event.ActionEvent evt) {                                          
@@ -683,7 +687,7 @@ public class SciCal extends javax.swing.JFrame
 
             if (numbers.length != 2) 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("+");
                 return;
             }
 
@@ -695,7 +699,7 @@ public class SciCal extends javax.swing.JFrame
         } 
         catch (NumberFormatException e) 
         {
-            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            jTextArea1.setText("+");
         }
     }                                   
 
@@ -707,7 +711,7 @@ public class SciCal extends javax.swing.JFrame
         
         if (numbers.length != 2) 
         {
-            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            jTextArea1.setText("-");
             return;
         }
         
@@ -719,31 +723,63 @@ public class SciCal extends javax.swing.JFrame
     } 
     catch (NumberFormatException e) 
     {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+        jTextArea1.setText("-");
     }
+    }  
+
+    private void nineActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "9");
+    }                                    
+
+    private void eightActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "8");
     }                                     
+
+    private void sevenActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "7");
+    } 
+    private void sixActionPerformed(java.awt.event.ActionEvent evt) {                                    
+        // TODO add your handling code here:\
+        jTextArea1.setText(jTextArea1.getText() + "6");
+    }                                   
+
+    private void fiveActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "5");
+    }                                    
+
+    private void fourActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText() + "4");
+    } 
 
     private void threeActionPerformed(java.awt.event.ActionEvent evt) {                                      
         // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText( )+ "3");
     }                                     
 
     private void twoActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText()+ "2");
     }                                   
 
     private void oneActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
+        jTextArea1.setText(jTextArea1.getText()+ "1");
     }                                   
 
     private void divisionActionPerformed(java.awt.event.ActionEvent evt) {                                         
         try 
         {
-            String input = jTextArea1.getText(); // Input from jTextArea1
-            String[] numbers = input.split(" "); // Assuming input format "num1 num2"
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
 
             if (numbers.length != 2) 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("/");
                 return;
             }
 
@@ -757,7 +793,7 @@ public class SciCal extends javax.swing.JFrame
             } 
             else 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("/");
             }
         } 
         catch (NumberFormatException e) 
@@ -774,7 +810,7 @@ public class SciCal extends javax.swing.JFrame
 
             if (numbers.length != 2) 
             {
-                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                jTextArea1.setText("*");
                 return;
             }
 
@@ -786,22 +822,9 @@ public class SciCal extends javax.swing.JFrame
         } 
         catch (NumberFormatException e) 
         {
-            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            jTextArea1.setText("*");
         }
-
     }                                              
-
-    private void sixActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-    }                                   
-
-    private void fiveActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
-
-    private void fourActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
 
     private void closeparenActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
@@ -810,22 +833,11 @@ public class SciCal extends javax.swing.JFrame
     private void openparenActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
-
-    private void nineActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
-
-    private void eightActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
-    }                                     
-
-    private void sevenActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
-    }                                     
-
+                                    
     private void onoffallclearActionPerformed(java.awt.event.ActionEvent evt) {                                              
         // TODO add your handling code here:
-    }                                             
+        jTextArea1.setText("");
+    }                          
 
     private void deleteActionPerformed(java.awt.event.ActionEvent evt) {                                       
         // TODO add your handling code here:
@@ -836,7 +848,17 @@ public class SciCal extends javax.swing.JFrame
     }                                        
 
     private void absoluteActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+        String inputText = jTextArea1.getText();
+    try 
+    {
+        double number = Double.parseDouble(inputText); 
+        double result = Math.abs(number);
+        jTextArea1.setText(String.valueOf(result)); 
+    } 
+    catch (NumberFormatException e) 
+    {
+        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
+    }
     }                                        
 
     private void minimaxiActionPerformed(java.awt.event.ActionEvent evt) {                                         
@@ -844,16 +866,111 @@ public class SciCal extends javax.swing.JFrame
     }                                        
 
     private void custombaselogarithmActionPerformed(java.awt.event.ActionEvent evt) {                                                    
-        // TODO add your handling code here:
+        try
+    {
+        String input = jTextArea1.getText();
+        String[] numbers = input.split(" ");
+
+        if (numbers.length != 2) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            return;
+        }
+
+        double base = Double.parseDouble(numbers[0]);
+        double num = Double.parseDouble(numbers[1]);
+
+        if (num <= 0 || base <= 0 || base == 1) 
+        {
+            jTextArea1.setText("Math error");
+            return;
+        }
+
+        double result = Math.log(num) / Math.log(base);
+        jTextArea1.setText(String.valueOf(result));
+    } 
+    catch (NumberFormatException e) 
+    {
+        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+    }
     }                                                   
 
     private void permutationActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
-    }                                           
+        try 
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
+
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            int n = Integer.parseInt(numbers[0]); 
+            int r = Integer.parseInt(numbers[1]); 
+
+            if (n < 0 || r < 0 || r > n) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            double result = factorial(n) / factorial(n - r);
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+        }
+    }
+
+    private double factorial(int number) {
+        double fact = 1;
+        for (int i = 1; i <= number; i++) 
+        {
+            fact *= i;
+        }
+        return fact;
+
+        }                                           
 
     private void combinationActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
-    }                                           
+        try 
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
+
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            int n = Integer.parseInt(numbers[0]);
+            int r = Integer.parseInt(numbers[1]);
+
+            if (n < 0 || r < 0 || r > n) 
+            {
+                jTextArea1.setText("Math error");
+                return;
+            }
+            double result = factorial(n) / (factorial(r) * factorial(n - r));
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+        }
+    }
+
+    private double factorial3(int number) {
+        double fact = 1;
+        for (int i = 1; i <= number; i++) {
+            fact *= i;
+        }
+        return fact;
+        }                                           
 
     private void shiftActionPerformed(java.awt.event.ActionEvent evt) {                                      
         // TODO add your handling code here:
@@ -868,12 +985,45 @@ public class SciCal extends javax.swing.JFrame
     }                                         
 
     private void summationActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+        try {
+        String input = jTextArea1.getText();
+        String[] numbers = input.split(" "); 
+        double sum = 0; 
+        for (String number : numbers) {
+            sum += Double.parseDouble(number); 
+        }
+        jTextArea1.setText("Sum: " + String.valueOf(sum));
+    } catch (NumberFormatException e) {
+        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
+    }
+
     }                                         
 
-    private void capitalpiActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
-    }                                         
+    private void capitalpiActionPerformed(java.awt.event.ActionEvent evt) {
+        String inputText = jTextArea1.getText(); // Get input from the text area
+        
+        String[] inputs = inputText.split(","); // Expecting comma-separated values, e.g., "1,10"
+        
+        try {
+            // Parse the start and end values from the input
+            int start = Integer.parseInt(inputs[0].trim());
+            int end = Integer.parseInt(inputs[1].trim());
+    
+            // Initialize product to 1
+            double product = 1;
+            
+            // Calculate the product from start to end
+            for (int i = start; i <= end; i++) {
+                product *= i;
+            }
+    
+            // Display the result in the text area
+            jTextArea1.setText(String.valueOf(product));
+    
+        } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
+            jTextArea1.setText("Invalid Input, please enter two numbers separated by a comma"); // Handle input errors
+        }
+    }                                       
 
     private void integralActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
@@ -896,27 +1046,115 @@ public class SciCal extends javax.swing.JFrame
     }                                       
 
     private void sineActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
+        try {
+        String input = jTextArea1.getText();
+        double degrees = Double.parseDouble(input); 
+        double radians = Math.toRadians(degrees);
+        double result = Math.sin(radians);
+
+        jTextArea1.setText("sin(" + degrees + ") = " + result);
+    } catch (NumberFormatException e) {
+        jTextArea1.setText("Invalid input. Please enter a valid number.");
+    }
+
     }                                    
 
-    private void cosineActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
-    }                                      
+    private void cosineActionPerformed(java.awt.event.ActionEvent evt) {
+        String inputText = jTextArea1.getText(); // Get input from the text area
+        
+        try {
+            // Parse the input to a double (assumed to be in degrees)
+            double degrees = Double.parseDouble(inputText.trim());
+            
+            // Convert degrees to radians since Math.cos works with radians
+            double radians = Math.toRadians(degrees);
+            
+            // Calculate the cosine of the input
+            double result = Math.cos(radians);
+            
+            // Display the result in the text area
+            jTextArea1.setText(String.valueOf(result));
+        } catch (NumberFormatException e) {
+            jTextArea1.setText("Invalid Input, please enter a valid number"); // Handle input errors
+        }
+    }                                  
 
-    private void tangentActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
-    }                                       
+ private void tangentActionPerformed(java.awt.event.ActionEvent evt) {
+    String inputText = jTextArea1.getText(); // Get input from the text area
+    
+    try {
+        // Parse the input to a double (assumed to be in degrees)
+        double degrees = Double.parseDouble(inputText.trim());
+        
+        // Convert degrees to radians since Math.tan works with radians
+        double radians = Math.toRadians(degrees);
+        
+        // Calculate the tangent of the input
+        double result = Math.tan(radians);
+        
+        // Display the result in the text area
+        jTextArea1.setText(String.valueOf(result));
+    } catch (NumberFormatException e) {
+        jTextArea1.setText("Invalid Input, please enter a valid number"); // Handle invalid input
+    }
+}                                      
 
     private void customrootActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
     }                                          
 
     private void factorialsActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        // TODO add your handling code here:
-    }                                          
+        try 
+    {
+        String input = jTextArea1.getText();
+        int number = Integer .parseInt(input); 
+
+        if (number < 0) 
+        {
+            jTextArea1.setText("Math error: Factorial is not defined for negative numbers.");
+            return;
+        }
+
+        double result = factorial2(number);
+        jTextArea1.setText(String.valueOf(result)); 
+    } 
+    catch (NumberFormatException e) 
+    {
+        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
+    }
+}
+
+private double factorial2(int number) {
+    double fact = 1; 
+    for (int i = 1; i <= number; i++) {
+        fact *= i; 
+    }
+    return fact; 
+    }                                      
 
     private void customexponentActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        // TODO add your handling code here:
+        try 
+    {
+        String input = jTextArea1.getText();
+        String[] numbers = input.split(" ");
+
+        if (numbers.length != 2) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+            return;
+        }
+
+        double num1 = Double.parseDouble(numbers[0]);
+        double num2 = Double.parseDouble(numbers[1]);
+
+        double result = Math.pow(num1, num2);
+        jTextArea1.setText(String.valueOf(result));
+    } 
+    catch (NumberFormatException e) 
+    {
+        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+    }
+
     }                                              
 
     /**
@@ -956,6 +1194,7 @@ public class SciCal extends javax.swing.JFrame
             }
         });
     }
+
 
     // Variables declaration - do not modify                     
     private javax.swing.JButton absolute;
