@@ -6,10 +6,7 @@
 /**
  *
  * @author Adriaan M. Dimate
- * @members Vincent Battaliones
- * @members Aiko Heart Agapay
- * @members Jay Racion
- * @members James Lawrence Dela Cruz
+ * @members 
  */
 public class SciCal extends javax.swing.JFrame {
 
@@ -70,11 +67,14 @@ public class SciCal extends javax.swing.JFrame {
         jButton36 = new javax.swing.JButton();
         jButton37 = new javax.swing.JButton();
         jButton38 = new javax.swing.JButton();
+        jButton44 = new javax.swing.JButton();
+        jButton45 = new javax.swing.JButton();
+        jButton46 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jButton48 = new javax.swing.JButton();
         jButton39 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         jScrollPane1.setViewportView(jTree1);
 
@@ -284,48 +284,55 @@ public class SciCal extends javax.swing.JFrame {
         jButton38.setBackground(new java.awt.Color(0, 0, 0));
         jButton38.setText("y");
 
-        jButton39.setBackground(new java.awt.Color(255, 153, 51));
+        jButton44.setBackground(new java.awt.Color(255, 153, 51));
+        jButton44.setForeground(new java.awt.Color(0, 0, 0));
+        jButton44.setText("AC/ON");
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton44ActionPerformed(evt);
+            }
+        });
+
+        jButton45.setBackground(new java.awt.Color(255, 153, 51));
+        jButton45.setForeground(new java.awt.Color(0, 0, 0));
+        jButton45.setText("DEL");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
+
+        jButton46.setBackground(new java.awt.Color(0, 0, 0));
+        jButton46.setText("ROUND");
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
+
+        jButton47.setBackground(new java.awt.Color(0, 0, 0));
+        jButton47.setText("ABS");
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
+
+        jButton48.setBackground(new java.awt.Color(0, 0, 0));
+        jButton48.setText("MIN");
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
+
+        jButton39.setBackground(new java.awt.Color(0, 204, 0));
         jButton39.setForeground(new java.awt.Color(0, 0, 0));
-        jButton39.setText("AC/ON");
-        jButton39.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton39ActionPerformed(evt);
-            }
-        });
+        jButton39.setText("SHIFT");
 
-        jButton40.setBackground(new java.awt.Color(255, 153, 51));
-        jButton40.setForeground(new java.awt.Color(0, 0, 0));
-        jButton40.setText("DEL");
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
-            }
-        });
+        jLabel1.setText("OFF");
 
-        jButton41.setBackground(new java.awt.Color(0, 0, 0));
-        jButton41.setText("⟂");
-        jButton41.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton41ActionPerformed(evt);
-            }
-        });
-
-        jButton42.setBackground(new java.awt.Color(0, 0, 0));
-        jButton42.setText("a/b");
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
-            }
-        });
-
-        jButton43.setBackground(new java.awt.Color(51, 204, 0));
-        jButton43.setForeground(new java.awt.Color(0, 0, 0));
-        jButton43.setText("SHIFT");
-        jButton43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton43ActionPerformed(evt);
-            }
-        });
+        jLabel2.setText("MAX");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -415,34 +422,45 @@ public class SciCal extends javax.swing.JFrame {
                                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 562, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jButton39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 562, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(14, 14, 14))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(144, 144, 144)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(46, 46, 46))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(15, Short.MAX_VALUE)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -581,23 +599,23 @@ public class SciCal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }                                         
 
-    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
 
@@ -671,15 +689,18 @@ public class SciCal extends javax.swing.JFrame {
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
+    private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton47;
+    private javax.swing.JButton jButton48;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTree jTree1;
