@@ -38,7 +38,8 @@ public class SciCal extends javax.swing.JFrame
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
-    private void initComponents() {
+    private void initComponents() 
+    {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTree1 = new javax.swing.JTree();
@@ -95,292 +96,368 @@ public class SciCal extends javax.swing.JFrame
 
         equals.setBackground(new java.awt.Color(51, 51, 51));
         equals.setText("=");
-        equals.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        equals.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 equalsActionPerformed(evt);
             }
         });
 
         decimal.setText(".");
-        decimal.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        decimal.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 decimalActionPerformed(evt);
             }
         });
 
         modulus.setBackground(new java.awt.Color(51, 51, 51));
         modulus.setText("%");
-        modulus.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        modulus.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 modulusActionPerformed(evt);
             }
         });
 
         zero.setText("0");
-        zero.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        zero.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 zeroActionPerformed(evt);
             }
         });
 
         plusminus.setText("±");
-        plusminus.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        plusminus.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 plusminusActionPerformed(evt);
             }
         });
 
         add.setBackground(new java.awt.Color(51, 51, 51));
         add.setText("+");
-        add.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        add.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 addActionPerformed(evt);
             }
         });
 
         minus.setBackground(new java.awt.Color(51, 51, 51));
         minus.setText("-");
-        minus.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        minus.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 minusActionPerformed(evt);
             }
         });
 
         three.setText("3");
-        three.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        three.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 threeActionPerformed(evt);
             }
         });
 
         two.setText("2");
-        two.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        two.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 twoActionPerformed(evt);
             }
         });
 
         one.setText("1");
-        one.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        one.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 oneActionPerformed(evt);
             }
         });
 
         division.setBackground(new java.awt.Color(51, 51, 51));
         division.setText("÷");
-        division.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        division.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 divisionActionPerformed(evt);
             }
         });
 
         multiplication.setBackground(new java.awt.Color(51, 51, 51));
         multiplication.setText("X");
-        multiplication.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        multiplication.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 multiplicationActionPerformed(evt);
             }
         });
 
         six.setText("6");
-        six.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        six.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 sixActionPerformed(evt);
             }
         });
 
         five.setText("5");
-        five.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        five.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 fiveActionPerformed(evt);
             }
         });
 
         four.setText("4");
-        four.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        four.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 fourActionPerformed(evt);
             }
         });
 
         closeparen.setBackground(new java.awt.Color(51, 51, 51));
         closeparen.setText(")");
-        closeparen.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        closeparen.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 closeparenActionPerformed(evt);
             }
         });
 
         openparen.setBackground(new java.awt.Color(51, 51, 51));
         openparen.setText("(");
-        openparen.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        openparen.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 openparenActionPerformed(evt);
             }
         });
 
         nine.setText("9");
-        nine.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        nine.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 nineActionPerformed(evt);
             }
         });
 
         eight.setText("8");
-        eight.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        eight.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 eightActionPerformed(evt);
             }
         });
 
         seven.setText("7");
-        seven.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        seven.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 sevenActionPerformed(evt);
             }
         });
 
         custombaselogarithm.setBackground(new java.awt.Color(0, 0, 0));
         custombaselogarithm.setText("logₙy");
-        custombaselogarithm.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        custombaselogarithm.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 custombaselogarithmActionPerformed(evt);
             }
         });
 
         customexponent.setBackground(new java.awt.Color(0, 0, 0));
         customexponent.setText("xʸ");
-        customexponent.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        customexponent.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 customexponentActionPerformed(evt);
             }
         });
 
         factorials.setBackground(new java.awt.Color(0, 0, 0));
         factorials.setText("! ");
-        factorials.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        factorials.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 factorialsActionPerformed(evt);
             }
         });
 
         combination.setBackground(new java.awt.Color(0, 0, 0));
         combination.setText("nCr");
-        combination.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        combination.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 combinationActionPerformed(evt);
             }
         });
 
         permutation.setBackground(new java.awt.Color(0, 0, 0));
         permutation.setText("nPr");
-        permutation.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        permutation.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 permutationActionPerformed(evt);
             }
         });
 
         customroot.setBackground(new java.awt.Color(0, 0, 0));
         customroot.setText("√");
-        customroot.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        customroot.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 customrootActionPerformed(evt);
             }
         });
 
         tangent.setBackground(new java.awt.Color(0, 0, 0));
         tangent.setText("tan");
-        tangent.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        tangent.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 tangentActionPerformed(evt);
             }
         });
 
         cosine.setBackground(new java.awt.Color(0, 0, 0));
         cosine.setText("cos");
-        cosine.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        cosine.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 cosineActionPerformed(evt);
             }
         });
 
         sine.setBackground(new java.awt.Color(0, 0, 0));
         sine.setText("sin");
-        sine.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        sine.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 sineActionPerformed(evt);
             }
         });
 
         smallpi.setBackground(new java.awt.Color(0, 0, 0));
         smallpi.setText("π");
-        smallpi.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        smallpi.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 smallpiActionPerformed(evt);
             }
         });
 
         floor.setBackground(new java.awt.Color(0, 0, 0));
         floor.setText("⌊x⌋");
-        floor.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        floor.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 floorActionPerformed(evt);
             }
         });
 
         ceiling.setBackground(new java.awt.Color(0, 0, 0));
         ceiling.setText("⌈x⌉");
-        ceiling.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ceiling.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 ceilingActionPerformed(evt);
             }
         });
 
         derivatives.setBackground(new java.awt.Color(0, 0, 0));
         derivatives.setText("d/dx");
-        derivatives.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        derivatives.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 derivativesActionPerformed(evt);
             }
         });
 
         integral.setBackground(new java.awt.Color(0, 0, 0));
         integral.setText("∫");
-        integral.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        integral.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 integralActionPerformed(evt);
             }
         });
 
         capitalpi.setBackground(new java.awt.Color(0, 0, 0));
         capitalpi.setText("Π");
-        capitalpi.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        capitalpi.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 capitalpiActionPerformed(evt);
             }
         });
 
         summation.setBackground(new java.awt.Color(0, 0, 0));
         summation.setText("∑");
-        summation.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        summation.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 summationActionPerformed(evt);
             }
         });
 
         variablex.setBackground(new java.awt.Color(0, 0, 0));
         variablex.setText("x");
-        variablex.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        variablex.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 variablexActionPerformed(evt);
             }
         });
 
         variabley.setBackground(new java.awt.Color(0, 0, 0));
         variabley.setText("y");
-        variabley.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        variabley.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 variableyActionPerformed(evt);
             }
         });
@@ -388,8 +465,10 @@ public class SciCal extends javax.swing.JFrame
         onoffallclear.setBackground(new java.awt.Color(255, 153, 51));
         onoffallclear.setForeground(new java.awt.Color(0, 0, 0));
         onoffallclear.setText("AC/ON");
-        onoffallclear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        onoffallclear.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 onoffallclearActionPerformed(evt);
             }
         });
@@ -405,24 +484,30 @@ public class SciCal extends javax.swing.JFrame
 
         roundoff.setBackground(new java.awt.Color(0, 0, 0));
         roundoff.setText("ROUND");
-        roundoff.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        roundoff.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 roundoffActionPerformed(evt);
             }
         });
 
         absolute.setBackground(new java.awt.Color(0, 0, 0));
         absolute.setText("ABS");
-        absolute.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        absolute.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 absoluteActionPerformed(evt);
             }
         });
 
         minimaxi.setBackground(new java.awt.Color(0, 0, 0));
         minimaxi.setText("MIN");
-        minimaxi.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        minimaxi.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 minimaxiActionPerformed(evt);
             }
         });
@@ -430,8 +515,10 @@ public class SciCal extends javax.swing.JFrame
         shift.setBackground(new java.awt.Color(0, 204, 0));
         shift.setForeground(new java.awt.Color(0, 0, 0));
         shift.setText("SHIFT");
-        shift.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        shift.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 shiftActionPerformed(evt);
             }
         });
@@ -631,15 +718,18 @@ public class SciCal extends javax.swing.JFrame
         pack();
     }// </editor-fold>                        
 
-    private void equalsActionPerformed(java.awt.event.ActionEvent evt) {                                                                                   
+    private void equalsActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                                                                   
         // TODO add your handling code here:
     }                                      
 
-    private void decimalActionPerformed(java.awt.event.ActionEvent evt) {                                        
+    private void decimalActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                        
         // TODO add your handling code here:
     }                                       
 
-    private void modulusActionPerformed(java.awt.event.ActionEvent evt) {                                        
+    private void modulusActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                        
         try 
         {
             String input = jTextArea1.getText();
@@ -670,16 +760,19 @@ public class SciCal extends javax.swing.JFrame
         }
     }                                       
 
-    private void zeroActionPerformed(java.awt.event.ActionEvent evt) {                                     
+    private void zeroActionPerformed(java.awt.event.ActionEvent evt)
+    {                                     
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "0");
     }                                    
 
-    private void plusminusActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void plusminusActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void addActionPerformed(java.awt.event.ActionEvent evt) {                                    
+    private void addActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                    
         try 
         {
             String input = jTextArea1.getText(); 
@@ -703,75 +796,86 @@ public class SciCal extends javax.swing.JFrame
         }
     }                                   
 
-    private void minusActionPerformed(java.awt.event.ActionEvent evt) {                                      
-    try 
-    {
-        String input = jTextArea1.getText();
-        String[] numbers = input.split(" ");
-        
-        if (numbers.length != 2) 
+    private void minusActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
+        try 
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
+            
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("-");
+                return;
+            }
+            
+            double num1 = Double.parseDouble(numbers[0]);
+            double num2 = Double.parseDouble(numbers[1]);
+
+            double result = num1 - num2;
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
         {
             jTextArea1.setText("-");
-            return;
         }
-        
-        double num1 = Double.parseDouble(numbers[0]);
-        double num2 = Double.parseDouble(numbers[1]);
-
-        double result = num1 - num2;
-        jTextArea1.setText(String.valueOf(result));
-    } 
-    catch (NumberFormatException e) 
-    {
-        jTextArea1.setText("-");
-    }
     }  
 
-    private void nineActionPerformed(java.awt.event.ActionEvent evt) {                                     
+    private void nineActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                     
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "9");
     }                                    
 
-    private void eightActionPerformed(java.awt.event.ActionEvent evt) {                                      
+    private void eightActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "8");
     }                                     
 
-    private void sevenActionPerformed(java.awt.event.ActionEvent evt) {                                      
+    private void sevenActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "7");
     } 
-    private void sixActionPerformed(java.awt.event.ActionEvent evt) {                                    
+    private void sixActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                    
         // TODO add your handling code here:\
         jTextArea1.setText(jTextArea1.getText() + "6");
     }                                   
 
-    private void fiveActionPerformed(java.awt.event.ActionEvent evt) {                                     
+    private void fiveActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                     
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "5");
     }                                    
 
-    private void fourActionPerformed(java.awt.event.ActionEvent evt) {                                     
+    private void fourActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                     
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText() + "4");
     } 
 
-    private void threeActionPerformed(java.awt.event.ActionEvent evt) {                                      
+    private void threeActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText( )+ "3");
     }                                     
 
-    private void twoActionPerformed(java.awt.event.ActionEvent evt) {                                    
+    private void twoActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                    
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText()+ "2");
     }                                   
 
-    private void oneActionPerformed(java.awt.event.ActionEvent evt) {                                    
+    private void oneActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                    
         // TODO add your handling code here:
         jTextArea1.setText(jTextArea1.getText()+ "1");
     }                                   
 
-    private void divisionActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void divisionActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                         
         try 
         {
             String input = jTextArea1.getText();
@@ -802,7 +906,8 @@ public class SciCal extends javax.swing.JFrame
         }
     }                                        
 
-    private void multiplicationActionPerformed(java.awt.event.ActionEvent evt) {                                               
+    private void multiplicationActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                               
         try 
         {
             String input = jTextArea1.getText();
@@ -826,76 +931,85 @@ public class SciCal extends javax.swing.JFrame
         }
     }                                              
 
-    private void closeparenActionPerformed(java.awt.event.ActionEvent evt) {                                           
+    private void closeparenActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                           
         // TODO add your handling code here:
     }                                          
 
-    private void openparenActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void openparenActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                          
         // TODO add your handling code here:
     }                                         
                                     
-    private void onoffallclearActionPerformed(java.awt.event.ActionEvent evt) {                                              
+    private void onoffallclearActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                              
         // TODO add your handling code here:
         jTextArea1.setText("");
     }                          
 
-    private void deleteActionPerformed(java.awt.event.ActionEvent evt) {                                       
+    private void deleteActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                       
         // TODO add your handling code here:
     }                                      
 
-    private void roundoffActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void roundoffActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                         
         // TODO add your handling code here:
     }                                        
 
-    private void absoluteActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void absoluteActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                         
         String inputText = jTextArea1.getText();
-    try 
-    {
-        double number = Double.parseDouble(inputText); 
-        double result = Math.abs(number);
-        jTextArea1.setText(String.valueOf(result)); 
-    } 
-    catch (NumberFormatException e) 
-    {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
-    }
+        try 
+        {
+            double number = Double.parseDouble(inputText); 
+            double result = Math.abs(number);
+            jTextArea1.setText(String.valueOf(result)); 
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
+        }
     }                                        
 
-    private void minimaxiActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void minimaxiActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                         
         // TODO add your handling code here:
     }                                        
 
-    private void custombaselogarithmActionPerformed(java.awt.event.ActionEvent evt) {                                                    
+    private void custombaselogarithmActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                                    
         try
-    {
-        String input = jTextArea1.getText();
-        String[] numbers = input.split(" ");
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
 
-        if (numbers.length != 2) 
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            double base = Double.parseDouble(numbers[0]);
+            double num = Double.parseDouble(numbers[1]);
+
+            if (num <= 0 || base <= 0 || base == 1) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            double result = Math.log(num) / Math.log(base);
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
         {
             jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-            return;
         }
-
-        double base = Double.parseDouble(numbers[0]);
-        double num = Double.parseDouble(numbers[1]);
-
-        if (num <= 0 || base <= 0 || base == 1) 
-        {
-            jTextArea1.setText("Math error");
-            return;
-        }
-
-        double result = Math.log(num) / Math.log(base);
-        jTextArea1.setText(String.valueOf(result));
-    } 
-    catch (NumberFormatException e) 
-    {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-    }
     }                                                   
 
-    private void permutationActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    private void permutationActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                            
         try 
         {
             String input = jTextArea1.getText();
@@ -925,17 +1039,18 @@ public class SciCal extends javax.swing.JFrame
         }
     }
 
-    private double factorial(int number) {
+    private double factorial(int number) 
+    {
         double fact = 1;
         for (int i = 1; i <= number; i++) 
         {
             fact *= i;
         }
         return fact;
+    }                                           
 
-        }                                           
-
-    private void combinationActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    private void combinationActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                            
         try 
         {
             String input = jTextArea1.getText();
@@ -952,7 +1067,7 @@ public class SciCal extends javax.swing.JFrame
 
             if (n < 0 || r < 0 || r > n) 
             {
-                jTextArea1.setText("Math error");
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
                 return;
             }
             double result = factorial(n) / (factorial(r) * factorial(n - r));
@@ -964,198 +1079,218 @@ public class SciCal extends javax.swing.JFrame
         }
     }
 
-    private double factorial3(int number) {
+    private double factorial3(int number) 
+    {
         double fact = 1;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= number; i++) 
+        {
             fact *= i;
         }
         return fact;
         }                                           
 
-    private void shiftActionPerformed(java.awt.event.ActionEvent evt) {                                      
+    private void shiftActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
         // TODO add your handling code here:
     }                                     
 
-    private void variableyActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void variableyActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void variablexActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void variablexActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                          
         // TODO add your handling code here:
     }                                         
 
-    private void summationActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        try {
-        String input = jTextArea1.getText();
-        String[] numbers = input.split(" "); 
-        double sum = 0; 
-        for (String number : numbers) {
-            sum += Double.parseDouble(number); 
-        }
+    private void summationActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                          
+        try 
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" "); 
+            double sum = 0; 
+            for (String number : numbers) 
+            {
+                sum += Double.parseDouble(number); 
+            }
         jTextArea1.setText("Sum: " + String.valueOf(sum));
-    } catch (NumberFormatException e) {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
-    }
-
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
+        }
     }                                         
 
-    private void capitalpiActionPerformed(java.awt.event.ActionEvent evt) {
-        String inputText = jTextArea1.getText(); // Get input from the text area
+    private void capitalpiActionPerformed(java.awt.event.ActionEvent evt) 
+    {
+        String inputText = jTextArea1.getText();
         
-        String[] inputs = inputText.split(","); // Expecting comma-separated values, e.g., "1,10"
+        String[] inputs = inputText.split(",");
         
-        try {
-            // Parse the start and end values from the input
+        try 
+        {
             int start = Integer.parseInt(inputs[0].trim());
             int end = Integer.parseInt(inputs[1].trim());
-    
-            // Initialize product to 1
+
             double product = 1;
-            
-            // Calculate the product from start to end
-            for (int i = start; i <= end; i++) {
+
+            for (int i = start; i <= end; i++) 
+            {
                 product *= i;
             }
-    
-            // Display the result in the text area
-            jTextArea1.setText(String.valueOf(product));
-    
-        } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
-            jTextArea1.setText("Invalid Input, please enter two numbers separated by a comma"); // Handle input errors
+
+            jTextArea1.setText(String.valueOf(product)); 
+        }
+        catch (NumberFormatException | ArrayIndexOutOfBoundsException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph (separate the numbers with a comma)");
         }
     }                                       
 
-    private void integralActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void integralActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                         
         // TODO add your handling code here:
     }                                        
 
-    private void derivativesActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    private void derivativesActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                            
         // TODO add your handling code here:
     }                                           
 
-    private void ceilingActionPerformed(java.awt.event.ActionEvent evt) {                                        
+    private void ceilingActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                        
         // TODO add your handling code here:
     }                                       
 
-    private void floorActionPerformed(java.awt.event.ActionEvent evt) {                                      
+    private void floorActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                      
         // TODO add your handling code here:
     }                                     
 
-    private void smallpiActionPerformed(java.awt.event.ActionEvent evt) {                                        
+    private void smallpiActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                        
         // TODO add your handling code here:
     }                                       
 
-    private void sineActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        try {
-        String input = jTextArea1.getText();
-        double degrees = Double.parseDouble(input); 
-        double radians = Math.toRadians(degrees);
-        double result = Math.sin(radians);
+    private void sineActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                     
+        try 
+        {
+            String input = jTextArea1.getText();
+            double degrees = Double.parseDouble(input); 
+            double radians = Math.toRadians(degrees);
+            double result = Math.sin(radians);
 
-        jTextArea1.setText("sin(" + degrees + ") = " + result);
-    } catch (NumberFormatException e) {
-        jTextArea1.setText("Invalid input. Please enter a valid number.");
-    }
+            jTextArea1.setText("sin(" + degrees + ") = " + result);
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("@manaloto.loudel@gordoncollege.edu.ph");
+        }
 
     }                                    
 
-    private void cosineActionPerformed(java.awt.event.ActionEvent evt) {
-        String inputText = jTextArea1.getText(); // Get input from the text area
+    private void cosineActionPerformed(java.awt.event.ActionEvent evt) 
+    {
+        String inputText = jTextArea1.getText();
         
-        try {
-            // Parse the input to a double (assumed to be in degrees)
+        try 
+        {
             double degrees = Double.parseDouble(inputText.trim());
-            
-            // Convert degrees to radians since Math.cos works with radians
             double radians = Math.toRadians(degrees);
             
-            // Calculate the cosine of the input
             double result = Math.cos(radians);
             
-            // Display the result in the text area
             jTextArea1.setText(String.valueOf(result));
-        } catch (NumberFormatException e) {
-            jTextArea1.setText("Invalid Input, please enter a valid number"); // Handle input errors
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
         }
     }                                  
 
- private void tangentActionPerformed(java.awt.event.ActionEvent evt) {
-    String inputText = jTextArea1.getText(); // Get input from the text area
-    
-    try {
-        // Parse the input to a double (assumed to be in degrees)
-        double degrees = Double.parseDouble(inputText.trim());
+    private void tangentActionPerformed(java.awt.event.ActionEvent evt) 
+    {
+        String inputText = jTextArea1.getText(); 
         
-        // Convert degrees to radians since Math.tan works with radians
-        double radians = Math.toRadians(degrees);
-        
-        // Calculate the tangent of the input
-        double result = Math.tan(radians);
-        
-        // Display the result in the text area
-        jTextArea1.setText(String.valueOf(result));
-    } catch (NumberFormatException e) {
-        jTextArea1.setText("Invalid Input, please enter a valid number"); // Handle invalid input
-    }
-}                                      
+        try 
+        {
+            double degrees = Double.parseDouble(inputText.trim());
+            double radians = Math.toRadians(degrees);
+            double result = Math.tan(radians);
+            
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+        }
+    }                                      
 
-    private void customrootActionPerformed(java.awt.event.ActionEvent evt) {                                           
+    private void customrootActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                           
         // TODO add your handling code here:
     }                                          
 
-    private void factorialsActionPerformed(java.awt.event.ActionEvent evt) {                                           
+    private void factorialsActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                           
         try 
-    {
-        String input = jTextArea1.getText();
-        int number = Integer .parseInt(input); 
-
-        if (number < 0) 
         {
-            jTextArea1.setText("Math error: Factorial is not defined for negative numbers.");
-            return;
+            String input = jTextArea1.getText();
+            int number = Integer .parseInt(input); 
+
+            if (number < 0) 
+            {
+                jTextArea1.setText("Math error: Factorial is not defined for negative numbers.");
+                return;
+            }
+
+            double result = factorial2(number);
+            jTextArea1.setText(String.valueOf(result)); 
+        } 
+        catch (NumberFormatException e) 
+        {
+            jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
         }
+    }
 
-        double result = factorial2(number);
-        jTextArea1.setText(String.valueOf(result)); 
-    } 
-    catch (NumberFormatException e) 
+    private double factorial2(int number) 
     {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph"); 
-    }
-}
-
-private double factorial2(int number) {
-    double fact = 1; 
-    for (int i = 1; i <= number; i++) {
-        fact *= i; 
-    }
-    return fact; 
+        double fact = 1; 
+        for (int i = 1; i <= number; i++) 
+        {
+            fact *= i; 
+        }
+        return fact; 
     }                                      
 
-    private void customexponentActionPerformed(java.awt.event.ActionEvent evt) {                                               
+    private void customexponentActionPerformed(java.awt.event.ActionEvent evt) 
+    {                                               
         try 
-    {
-        String input = jTextArea1.getText();
-        String[] numbers = input.split(" ");
+        {
+            String input = jTextArea1.getText();
+            String[] numbers = input.split(" ");
 
-        if (numbers.length != 2) 
+            if (numbers.length != 2) 
+            {
+                jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
+                return;
+            }
+
+            double num1 = Double.parseDouble(numbers[0]);
+            double num2 = Double.parseDouble(numbers[1]);
+
+            double result = Math.pow(num1, num2);
+            jTextArea1.setText(String.valueOf(result));
+        } 
+        catch (NumberFormatException e) 
         {
             jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-            return;
         }
 
-        double num1 = Double.parseDouble(numbers[0]);
-        double num2 = Double.parseDouble(numbers[1]);
-
-        double result = Math.pow(num1, num2);
-        jTextArea1.setText(String.valueOf(result));
-    } 
-    catch (NumberFormatException e) 
-    {
-        jTextArea1.setText("manaloto.loudel@gordoncollege.edu.ph");
-    }
-
-    }                                              
+        }                                              
 
     /**
      * @param args the command line arguments
@@ -1167,20 +1302,31 @@ private double factorial2(int number) {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+        try 
+        {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) 
+            {
+                if ("Nimbus".equals(info.getName())) 
+                {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
+        } 
+        catch (ClassNotFoundException ex) 
+        {
             java.util.logging.Logger.getLogger(SciCal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
+        } 
+        catch (InstantiationException ex) 
+        {
             java.util.logging.Logger.getLogger(SciCal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } 
+        catch (IllegalAccessException ex) 
+        {
             java.util.logging.Logger.getLogger(SciCal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } 
+        catch (javax.swing.UnsupportedLookAndFeelException ex) 
+        {
             java.util.logging.Logger.getLogger(SciCal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
